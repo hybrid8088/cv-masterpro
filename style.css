@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+/* Header Section */
+header {
+    background: #007bff;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+.button {
+    background: orange;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 30px;
+}
+
+/* Services List */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Contact Form */
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+button:hover {
+    background: darkorange;
+}
+
+/* Response Message */
+#responseMessage {
+    color: green;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 15px;
+}
